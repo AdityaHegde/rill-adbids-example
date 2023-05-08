@@ -1,0 +1,25 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "AdData_dashboard"
+model: "AdData_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "timestamp"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Publisher
+    property: publisher
+    description: ""
+  - label: Domain
+    property: domain
+    description: ""
+  - label: City
+    property: city
+    description: ""
+  - label: Country
+    property: country
+    description: ""

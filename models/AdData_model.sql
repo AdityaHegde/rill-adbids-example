@@ -1,0 +1,1 @@
+select bid.*, imp.* exclude(id) from AdBids bid join AdImpressions imp on bid.id = imp.id
