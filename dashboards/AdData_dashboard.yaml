@@ -1,6 +1,6 @@
 # Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
 
-display_name: "AdData_dashboard"
+title: "AdData_dashboard"
 model: "AdData_model"
 default_time_range: ""
 smallest_time_grain: ""
@@ -10,6 +10,12 @@ measures:
     expression: count(*)
     description: Total number of records present
     format_preset: humanize
+    name: measure
+  - label: "Bid Price"
+    expression: "avg(bid_price)"
+    name: measure_1
+    description: ""
+    format_preset: currency_usd
 dimensions:
   - label: Publisher
     property: publisher
