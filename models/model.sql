@@ -1,1 +1,1 @@
-select *
+selct 1

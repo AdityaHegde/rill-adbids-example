@@ -1,0 +1,2 @@
+type: duckdb
+sql: select * from read_csv('errored')
