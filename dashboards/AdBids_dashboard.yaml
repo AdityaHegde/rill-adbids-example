@@ -12,7 +12,7 @@ measures:
     format_preset: humanize
 dimensions:
   - label: Publisher
-    property: pub
+    property: publisher
     description: ""
   - label: Domain
     property: domain
