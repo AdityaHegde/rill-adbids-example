@@ -20,7 +20,6 @@ dimensions:
   - label: Publisher
     property: publisher
     description: ""
-    ignore: true
   - label: Domain
     property: domain
     description: ""
