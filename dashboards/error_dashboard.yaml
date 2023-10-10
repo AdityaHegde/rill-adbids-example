@@ -12,7 +12,7 @@ measures:
 dimensions:
   - name: publisher
     label: Publisher
-    column: pub
+    column: publisher
     description: ""
   - name: domain
     label: Domain
