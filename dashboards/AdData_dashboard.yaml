@@ -23,6 +23,7 @@ dimensions:
   - label: Domain
     property: domain
     description: ""
+    ignore: true
   - label: City
     property: city
     description: ""
