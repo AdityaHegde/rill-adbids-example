@@ -2,7 +2,7 @@ kind: report
 title: "AdBids Report"
 
 refresh:
-  every: 5s
+  every: 24h
   time_zone: America/Los_Angeles
 
 query:
