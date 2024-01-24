@@ -1,7 +1,7 @@
-kind: report
+#kind: report
 title: AdBids_report
 refresh:
-  cron: "* * * * *"
+  cron: "* * 1 * *"
 query:
   name: MetricsViewComparison
   args:
