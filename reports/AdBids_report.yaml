@@ -1,0 +1,21 @@
+kind: report
+title: AdBids_report
+refresh:
+  cron: "* * * * *"
+query:
+  name: MetricsViewComparison
+  args:
+    metrics_view_name: AdBids_dashbaord
+    dimension:
+      name: publisher
+    measures:
+      - name: total_records
+    time_range:
+      iso_duration: P1W
+    comparison_time_range:
+      iso_offset: P1W
+export:
+  format: csv
+email:
+  recipients:
+    - aditya.hegde@rilldata.com
