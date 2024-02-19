@@ -1,4 +1,4 @@
-kind: report
+#kind: report
 title: AdBids_report
 refresh:
   cron: "* * 1 * *"
