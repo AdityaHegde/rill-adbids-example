@@ -2,3 +2,7 @@ compiler: rill-beta
 rill_version: 
 
 title: rill-adbids-example
+
+connectors:
+- name: slack
+  type: slack
