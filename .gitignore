@@ -1,4 +1,6 @@
 # Rill
+/tmp
+/data
 *.db
 *.db.tmp
 *.db.wal
