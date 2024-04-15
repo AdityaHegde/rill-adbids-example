@@ -1,6 +1,6 @@
 # Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
 
-display_name: "AdBids_dashboard"
+display_name: "AdBids_dashboard_no_timestamp"
 model: "AdBids_model"
 default_time_range: ""
 smallest_time_grain: ""
