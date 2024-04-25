@@ -6,3 +6,6 @@ title: rill-adbids-example
 connectors:
 - name: slack
   type: slack
+
+ignore_paths:
+- /random
