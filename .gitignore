@@ -4,3 +4,4 @@
 *.db
 *.db.tmp
 *.db.wal
+.env
