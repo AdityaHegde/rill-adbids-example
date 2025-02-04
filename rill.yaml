@@ -6,3 +6,12 @@ connectors:
 
 ignore_paths:
 - /random
+
+mock_users:
+- email: test@rilldata.com
+- email: aditya.hegde@rilldata.com
+  groups:
+  - group-test
+- email: adityahegde@gmail.com
+- email: test@yahoo.com
+- email: adityahegde@yahoo.com
