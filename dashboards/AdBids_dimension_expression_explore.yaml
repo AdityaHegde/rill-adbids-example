@@ -8,3 +8,5 @@ metrics_view: AdBids_dimension_expression
 
 dimensions: '*'
 measures: '*'
+
+banner: "Ad bids banner dashboard"
