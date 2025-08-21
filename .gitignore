@@ -5,3 +5,6 @@
 *.db.tmp
 *.db.wal
 .env
+
+.DS_Store
+tmp
