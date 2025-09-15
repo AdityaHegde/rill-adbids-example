@@ -2,6 +2,7 @@
 # Reference documentation: https://docs.rilldata.com/reference/project-files/dashboards
 
 type: metrics_view
+version: 1
 title: Adbids Latest Dashboard
 model: AdBids_latest_model
 timeseries: timestamp

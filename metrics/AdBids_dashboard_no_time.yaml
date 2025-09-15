@@ -1,6 +1,7 @@
 # Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
 
 type: metrics_view
+version: 1
 display_name: "AdBids_dashboard_no_timestamp"
 model: "AdBids_model"
 default_time_range: ""
